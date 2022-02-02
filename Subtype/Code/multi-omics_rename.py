@@ -35,7 +35,7 @@ from sklearn.feature_selection import SelectKBest
 from sklearn.feature_selection import chi2
 from sklearn import preprocessing
 warnings.filterwarnings("ignore")
-#save_results_to = '/home/winston/MOLI/res/all_6index/nofs/'
+
 save_results_to = '/content/results_multi'
 #torch.manual_seed(42)
 random.seed(42)
