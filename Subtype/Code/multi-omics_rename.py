@@ -55,13 +55,16 @@ TCGAEx_muts = pd.read_csv("/content/gdrive/MyDrive/multiomics/muts.csv",
 TCGAEx_prots = pd.read_csv("/content/prots.csv", 
                     index_col=0, header=None)
 TCGAEx_rnas = pd.read_csv("/content/gdrive/MyDrive/multiomics/rnas.csv", 
-                    index_col=0, header=None)                    
+                    index_col=0, header=None)  
+TCGAEx_cnv = pd.read_csv("/content/gdrive/MyDrive/multiomics/cnv.csv", 
+                    index_col=0, header=None)
 TCGAEx_clin=TCGAEx_clin.values
 TCGAEx_meth=TCGAEx_meth.values
 TCGAEx_mirs=TCGAEx_mirs.values
 TCGAEx_muts=TCGAEx_muts.values
 TCGAEx_prots=TCGAEx_prots.values
 TCGAEx_rnas=TCGAEx_rnas.values
+TCGAEx_cnvs=TCGAEx_cnvs.values
 #print(TCGAEx)
 
 label_df=pd.read_csv("/content/gdrive/MyDrive/label.csv",header=None)
